@@ -26,6 +26,7 @@ void initializeSuzukiG13B(TriggerWaveform *s) {
 
 	s->addToothRiseFall(360, w);
 
+  s->tdcPosition = 180 + 6;
 	s->isSynchronizationNeeded = false;
 	s->shapeWithoutTdc = true;
 }
